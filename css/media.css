@@ -1,0 +1,77 @@
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1920px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1600px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+    .test__wrapper {
+        padding: 15px 0;
+    }
+
+    .test__title h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .test__items {
+        flex-wrap: wrap;
+        padding: 25px 0;
+    }
+
+    .test__item {
+        flex: 0 0 50%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+}
+
+@media only screen and (max-width : 640px) {
+    .test__item {
+        flex: 0 0 90%;
+        margin: 0 auto;
+    }
+	
+}
+
+@media only screen and (max-width : 560px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .test__item-wrapper {
+        padding: 20px;
+    }
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .test__item-money-button button {
+        text-transform: uppercase;
+        padding: 10px 25px;
+    }
+
+
+}
